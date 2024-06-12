@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){var e=document.getElementById("preloader"),t=Date.now();window.addEventListener("load",(function(){var n=2e3-(Date.now()-t);n=n>0?n:0,setTimeout((function(){e.style.opacity="0",setTimeout((function(){e.style.display="none"}),1e3)}),n)}))}));
